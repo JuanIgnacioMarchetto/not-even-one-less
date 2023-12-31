@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:url(https://wallpapers.com/images/hd/green-background-ivfksvptao7sdhrg.jpg);
+  }
+  
+  #map {
+    height: 400px;
+    width:70%;
+  }
+
+ a img{border-radius: 50%; height: 200px;width: 200px;}
+
+  .sos-link {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sos-link:hover {
+    transform: rotate(360deg);
+  }
+  
